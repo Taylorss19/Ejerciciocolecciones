@@ -49,7 +49,7 @@ def validar_contraseña(contraseña):
         return
 
 
-def buscar_ususario():
+def buscar_usuario():
     nombre=input("Ingrese nombre a buscar: ")
     if nombre in usuarios:
         print(f"Sexo: ",usuarios[nombre]["sexo"])
@@ -82,7 +82,7 @@ while True:
         except ValueError:
             print("Por favor ingrese una opción válida")
     if op==1:
-        ingresar_usiario()
+        ingresar_usuario()
     elif op ==2:
         buscar_usuario()
     elif op==3:
